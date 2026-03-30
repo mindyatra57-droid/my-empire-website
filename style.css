@@ -188,3 +188,45 @@ form button{
     padding:10px;
     cursor:pointer;
 }
+@media (max-width:768px){
+
+nav{
+flex-direction:column;
+}
+
+.hero{
+flex-direction:column;
+text-align:center;
+}
+
+.hero img{
+width:250px;
+}
+
+h1{
+font-size:30px;
+}
+
+p{
+font-size:16px;
+}
+
+}
+button{
+background: cyan;
+color: black;
+padding: 12px 25px;
+border: none;
+font-size: 18px;
+cursor: pointer;
+transition: 0.3s;
+}
+button:hover{
+background: white;
+transform: scale(1.1);
+box-shadow: 0 0 20px cyan;
+}
+section{
+padding:60px;
+text-align:center;
+}
